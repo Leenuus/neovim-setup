@@ -38,4 +38,5 @@ return require('packer').startup(function(use)
     use 'nvim-tree/nvim-tree.lua'
     use 'HiPhish/nvim-ts-rainbow2'
     use 'chentoast/marks.nvim'
+    use 'dkarter/bullets.vim'
 end)

@@ -20,3 +20,4 @@ vim.opt.list = true
 vim.opt.listchars:append "eol:↴"
 
 require("leenuus.marks")
+require("leenuus.bullets")
