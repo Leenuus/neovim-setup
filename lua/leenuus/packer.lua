@@ -34,5 +34,8 @@ return require('packer').startup(function(use)
     use {
         'neoclide/coc.nvim', branch= 'release'
     }
-    use "preservim/nerdtree"
+    use "lukas-reineke/indent-blankline.nvim"
+    use 'nvim-tree/nvim-tree.lua'
+    use 'HiPhish/nvim-ts-rainbow2'
+    use 'chentoast/marks.nvim'
 end)
